@@ -56,6 +56,7 @@ function App() {
         {/* 🌐 PÚBLICAS */}
         {/* HOME PRINCIPAL */}
         <Route path="/" element={<Home session={session} />} />
+        <Route path="/home" element={<Home session={session} />} />
         <Route path="/login" element={<Login />} />
         <Route path="/sobre" element={<Landing />} />
         <Route path="/igrejas" element={<ChurchesPage />} />
